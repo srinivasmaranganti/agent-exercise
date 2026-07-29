@@ -1,10 +1,11 @@
 import streamlit as st
 import json
-from dotenv import load_dotenv  
+#rom dotenv import load_dotenv  
+import os
 from openai import OpenAI
 from tools import AVAILABLE_TOOLS
 
-load_dotenv()
+#oad_dotenv()
 # Page Configuration
 st.set_page_config(page_title="CS Agent Hub", page_icon="🎧", layout="centered")
 st.title("🎧 Customer Service Agent Workspace")
